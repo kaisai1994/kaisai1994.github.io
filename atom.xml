@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>小菜鸟大成长</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://www.kaisai1994.com/"/>
+  <updated>2016-05-24T14:29:01.776Z</updated>
+  <id>http://www.kaisai1994.com/</id>
+  
+  <author>
+    <name>kaisai1994</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>[object Object]</title>
+    <link href="http://www.kaisai1994.com//blog/2016/05/test.html"/>
+    <id>http://www.kaisai1994.com//blog/2016/05/test.html</id>
+    <published>2016-05-24T14:29:01.772Z</published>
+    <updated>2016-05-24T14:29:01.776Z</updated>
+    
+    <content type="html"></content>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
