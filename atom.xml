@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kaisai1994.com/"/>
-  <updated>2016-05-25T10:08:44.642Z</updated>
+  <updated>2016-05-25T13:19:25.951Z</updated>
   <id>http://kaisai1994.com/</id>
   
   <author>
@@ -20,11 +20,15 @@
     <link href="http://kaisai1994.com//blog/2016/05/Android%E5%BC%80%E5%8F%91%E8%80%85.html"/>
     <id>http://kaisai1994.com//blog/2016/05/Android开发者.html</id>
     <published>2016-05-25T10:05:40.862Z</published>
-    <updated>2016-05-25T10:08:44.642Z</updated>
+    <updated>2016-05-25T13:19:25.951Z</updated>
     
-    <content type="html"></content>
+    <content type="html">&lt;p&gt;这里是我个人的Android学习等其他技术的一个博客，分享自己的学习心得。&lt;/p&gt;
+</content>
     
     <summary type="html">
+    
+      &lt;p&gt;这里是我个人的Android学习等其他技术的一个博客，分享自己的学习心得。&lt;/p&gt;
+
     
     </summary>
     
