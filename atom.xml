@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kaisai1994.com/"/>
-  <updated>2016-05-26T09:09:41.728Z</updated>
+  <updated>2016-05-26T14:39:10.121Z</updated>
   <id>http://kaisai1994.com/</id>
   
   <author>
@@ -16,26 +16,27 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Android开发者</title>
+    <title>基于Github利用Hexo搭建一个专属博客</title>
     <link href="http://kaisai1994.com//blog/2016/05/Android%E5%BC%80%E5%8F%91%E8%80%85.html"/>
     <id>http://kaisai1994.com//blog/2016/05/Android开发者.html</id>
     <published>2016-05-25T10:05:40.862Z</published>
-    <updated>2016-05-26T09:09:41.728Z</updated>
+    <updated>2016-05-26T14:39:10.121Z</updated>
     
-    <content type="html">&lt;p&gt;这里是我个人的Android学习等其他技术的一个博客，分享自己的学习心得。&lt;/p&gt;
+    <content type="html">&lt;p&gt;通过本次教程你可以一步一步的搭建一个属于你自己的博客，我们需要的技术有Github和Hexo的配置，只需短短的几十分钟，你就可以搭建一个属于自己的博客了&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h1 id=&quot;建立一个Github&quot;&gt;&lt;a href=&quot;#建立一个Github&quot; class=&quot;headerlink&quot; title=&quot;建立一个Github&quot;&gt;&lt;/a&gt;建立一个Github&lt;/h1&gt;&lt;p&gt;  首先使用你的github创建一个仓库，仓库名必须为：你的用户名.github.io，这样创建的仓库有自己的项目页面，这样你使用Hexo搭建的博客才能被访问到，&lt;/p&gt;
 </content>
     
     <summary type="html">
     
-      &lt;p&gt;这里是我个人的Android学习等其他技术的一个博客，分享自己的学习心得。&lt;/p&gt;
-
+      &lt;p&gt;通过本次教程你可以一步一步的搭建一个属于你自己的博客，我们需要的技术有Github和Hexo的配置，只需短短的几十分钟，你就可以搭建一个属于自己的博客了&lt;/p&gt;
     
     </summary>
     
-      <category term="生活" scheme="http://kaisai1994.com/categories/%E7%94%9F%E6%B4%BB/"/>
+      <category term="技术" scheme="http://kaisai1994.com/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="生活" scheme="http://kaisai1994.com/tags/%E7%94%9F%E6%B4%BB/"/>
+      <category term="搭建博客" scheme="http://kaisai1994.com/tags/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   

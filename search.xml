@@ -4,9 +4,11 @@
   
     
     <entry>
-      <title><![CDATA[Android开发者]]></title>
+      <title><![CDATA[基于Github利用Hexo搭建一个专属博客]]></title>
       <url>http://kaisai1994.com/blog/2016/05/Android%E5%BC%80%E5%8F%91%E8%80%85.html</url>
-      <content type="html"><![CDATA[<p>这里是我个人的Android学习等其他技术的一个博客，分享自己的学习心得。</p>
+      <content type="html"><![CDATA[<p>通过本次教程你可以一步一步的搭建一个属于你自己的博客，我们需要的技术有Github和Hexo的配置，只需短短的几十分钟，你就可以搭建一个属于自己的博客了</p>
+<a id="more"></a>
+<h1 id="建立一个Github"><a href="#建立一个Github" class="headerlink" title="建立一个Github"></a>建立一个Github</h1><p>  首先使用你的github创建一个仓库，仓库名必须为：你的用户名.github.io，这样创建的仓库有自己的项目页面，这样你使用Hexo搭建的博客才能被访问到，</p>
 ]]></content>
     </entry>
     
