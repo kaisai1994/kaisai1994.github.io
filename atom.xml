@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>小菜鸟大成长</title>
-  
+  <subtitle>我喜欢忙忙碌碌的感觉，这样我才能感觉自己活着</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kaisai1994.com/"/>
