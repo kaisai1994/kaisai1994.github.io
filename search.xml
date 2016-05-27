@@ -33,6 +33,7 @@ npm install hexo-generator-sitemap@1 --save
 <pre><code>hexo generate 
 hexo server
 </code></pre><p>执行完以上两个命令你就可以在浏览器地址栏输入<a href="http://localhost:4000可以看到hexo的" target="_blank" rel="external">http://localhost:4000可以看到hexo的</a><br>博客大框已经搭建好了，但是和我们看到的精美博客不同。其实这只是一个小起步。</p>
+<p>#Hexo大换脸—————使用主题next<br>关于主题的使用网络上有太多太多的博客都有介绍主题的使用配置了，其中最官方的还是<br><a href="http://theme-next.iissnan.com/getting-started.html" title="Next官方文档" target="_blank" rel="external">http://theme-next.iissnan.com/getting-started.html</a><br>动手能力还是要有的这里面介绍了很多，非常详细</p>
 ]]></content>
     </entry>
     
