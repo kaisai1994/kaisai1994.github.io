@@ -92,7 +92,7 @@
 <meta property="og:url" content="http://kaisai1994.com/blog/2016/05/基于Github利用Hexo搭建一个专属博客.html">
 <meta property="og:site_name" content="小菜鸟大成长">
 <meta property="og:description" content="通过本次教程你可以一步一步的搭建一个属于你自己的博客，我们需要的技术有Github和Hexo的配置，只需短短的几十分钟，你就可以搭建一个属于自己的博客了">
-<meta property="og:updated_time" content="2016-05-27T01:05:36.845Z">
+<meta property="og:updated_time" content="2016-05-27T15:48:11.261Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="基于Github利用Hexo搭建一个专属博客">
 <meta name="twitter:description" content="通过本次教程你可以一步一步的搭建一个属于你自己的博客，我们需要的技术有Github和Hexo的配置，只需短短的几十分钟，你就可以搭建一个属于自己的博客了">
@@ -361,9 +361,30 @@
 <a id="more"></a>
 <h1 id="建立一个Github"><a href="#建立一个Github" class="headerlink" title="建立一个Github"></a>建立一个Github</h1><p>  首先使用你的github创建一个仓库，仓库名必须为：你的用户名.github.io，这样创建的仓库有自己的项目页面，这样你使用Hexo搭建的博客才能被访问到，起初进行到这步骤的时候我有些疑惑，因为以前听说过使用github page去搭建一个博客，需要创建一个分支提交才会将页面生成，后来才明白这是两件事，<br>  在github上当你使用以上的仓库名时，github就会默认给你生成一个<strong>项目页面</strong>他和<strong>github page</strong>页面不同。</p>
 <p><strong>所以知道了这个原理，希望你不要把自己的github仓库名改变~乖乖的改成我说的格式撒~</strong></p>
-<p>建立好一个仓库之后，先放着，我们接下来安装Hexo</p>
-<h1 id="Hexo安装"><a href="#Hexo安装" class="headerlink" title="Hexo安装"></a>Hexo安装</h1><pre><code>npm install -g hexo
-</code></pre>
+<p>建立好一个仓库之后，先放着，接下来搭建本地环境</p>
+<h1 id="环境搭建"><a href="#环境搭建" class="headerlink" title="环境搭建"></a>环境搭建</h1><p>首先我们创建一个文件夹并进入，在git bash下运行以下命令，</p>
+<pre><code>npm install hexo-cli -g
+</code></pre><p>安装完毕后，在git bash中输入</p>
+<pre><code>hexo init
+</code></pre><p>然后我们需要安装一些Hexo插件，建议大家都安装上，可以生成sitemap，RSS，部署到git。</p>
+<pre><code>npm install hexo-generator-index --save
+npm install hexo-generator-archive --save
+npm install hexo-generator-category --save
+npm install hexo-generator-tag --save
+npm install hexo-server --save
+npm install hexo-deployer-git --save
+npm install hexo-deployer-heroku --save
+npm install hexo-deployer-rsync --save
+npm install hexo-deployer-openshift --save
+npm install hexo-renderer-marked@0.2 --save
+npm install hexo-renderer-stylus@0.2 --save
+npm install hexo-generator-feed@1 --save
+npm install hexo-generator-sitemap@1 --save
+</code></pre><p>以上这些创建好了之后几个一个框架就搭建完毕了，你可以通过以下两个命令进行构建和发布</p>
+<pre><code>hexo generate 
+hexo server
+</code></pre><p>执行完以上两个命令你就可以在浏览器地址栏输入<a href="http://localhost:4000可以看到hexo的" target="_blank" rel="external">http://localhost:4000可以看到hexo的</a><br>博客大框已经搭建好了，但是和我们看到的精美博客不同。其实这只是一个小起步。</p>
+
       
     </div>
 
@@ -586,7 +607,7 @@
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#建立一个Github"><span class="nav-number">1.</span> <span class="nav-text">建立一个Github</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Hexo安装"><span class="nav-number">2.</span> <span class="nav-text">Hexo安装</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#建立一个Github"><span class="nav-number">1.</span> <span class="nav-text">建立一个Github</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#环境搭建"><span class="nav-number">2.</span> <span class="nav-text">环境搭建</span></a></li></ol></div>
             
           </div>
         </section>
