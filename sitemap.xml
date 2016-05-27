@@ -2,30 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://kaisai1994.com/blog/2016/05/%E5%9F%BA%E4%BA%8EGithub%E5%88%A9%E7%94%A8Hexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E4%B8%93%E5%B1%9E%E5%8D%9A%E5%AE%A2.html</loc>
+    <loc>http://kaisai1994.com/tags/index.html</loc>
     
-    <lastmod>2016-05-26T14:54:19.124Z</lastmod>
+    <lastmod>2016-05-27T00:34:21.785Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kaisai1994.com/categories/index.html</loc>
     
-    <lastmod>2016-05-26T06:41:57.278Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kaisai1994.com/tags/index.html</loc>
-    
-    <lastmod>2016-05-26T06:41:39.760Z</lastmod>
+    <lastmod>2016-05-27T00:33:41.709Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kaisai1994.com/about/index.html</loc>
     
-    <lastmod>2016-05-26T06:41:18.824Z</lastmod>
+    <lastmod>2016-05-27T00:33:03.542Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kaisai1994.com/blog/2016/05/%E5%9F%BA%E4%BA%8EGithub%E5%88%A9%E7%94%A8Hexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E4%B8%93%E5%B1%9E%E5%8D%9A%E5%AE%A2.html</loc>
+    
+    <lastmod>2016-05-26T14:54:19.124Z</lastmod>
     
   </url>
   
