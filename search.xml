@@ -26,6 +26,42 @@ for(int i=0;i&lt;a.length;i++){
    System.out.println(a[i]); 
     }
 }
+</code></pre><h1 id="快速排序——最常用的排序"><a href="#快速排序——最常用的排序" class="headerlink" title="快速排序——最常用的排序"></a>快速排序——最常用的排序</h1><p>  快速排序是基于一种二分的思想，从序列的两端开始探索扫描，找准一个基准数，从左往右找大于它的数，再从右往左进行扫描找小于它的数，然后做交换。</p>
+<p>代码实现:</p>
+<pre><code>void quickSort(int[] a,int left,int right)
+{
+    int i,j,t,tmp;
+    if(left &gt; right)
+    {
+        return;
+    }
+    tmp = a[left];//基准数
+    i = left;
+    j = right;
+    while(i != j)
+    {
+        //先从右边开始查找，右边的要大于基准数
+        while(a[j] &gt;= tmp &amp;&amp; i &lt; j)
+        {    
+            j--
+        }
+        while(a[i] &lt;= tmp &amp;&amp; i &lt; j)
+        {
+            i++;
+        }
+        if（i &lt; j)
+        {
+            t = a[i];
+            a[i] = a[j];
+            a[j] = t;
+        }
+    }
+    a[left] = a[i];
+    a[i] = tmp;
+
+    quickSort(left,i - 1);
+    quickSort(i + 1,right);
+} 
 </code></pre>]]></content>
     </entry>
     
