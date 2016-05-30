@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kaisai1994.com/"/>
-  <updated>2016-05-30T14:03:21.825Z</updated>
+  <updated>2016-05-30T14:05:35.290Z</updated>
   <id>http://kaisai1994.com/</id>
   
   <author>
@@ -20,14 +20,14 @@
     <link href="http://kaisai1994.com//blog/2016/05/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E4%B9%8B%E6%8E%92%E5%BA%8F.html"/>
     <id>http://kaisai1994.com//blog/2016/05/数据结构与算法之排序.html</id>
     <published>2016-05-30T13:53:44.269Z</published>
-    <updated>2016-05-30T14:03:21.825Z</updated>
+    <updated>2016-05-30T14:05:35.290Z</updated>
     
     <content type="html">&lt;h1 id=&quot;冒泡排序&quot;&gt;&lt;a href=&quot;#冒泡排序&quot; class=&quot;headerlink&quot; title=&quot;冒泡排序&quot;&gt;&lt;/a&gt;冒泡排序&lt;/h1&gt;&lt;p&gt;  冒泡排序是通过两辆相邻互换的方式每一轮对比出一个最大或者最小值，好比一群个头大小不同的人排队，个子高的人不停与身边相邻的人对比，然后互换位置，冒泡排序大致就是这个原理。&lt;br&gt;&lt;img src=&quot;http://img.my.csdn.net/uploads/201209/07/1347009396_8149.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;代码实现：&lt;br&gt;    public class BubbleSort {&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;  public bubbleSort(){
   inta[]= {49,38,65,97,76,13,27,49,78,34,12,64,5,4,62,99, 98,54,56,17,18,23,34,15,35,25,53,51};
   int temp=0;
-  for(int i=0;i&amp;lt;a.length-1;i++){
-   for(int j=0;j&amp;lt;a.length-1-i;j++){
+  for(int i=0;i&amp;lt;a.length-1;i++){  //N个数至少要交换N-1轮
+   for(int j=0;j&amp;lt;a.length-1-i;j++){ //每一轮都有一个数沉底，所以当进行到N轮就有N个数沉底要减去i
      if(a[j]&amp;gt;a[j+1]){
        temp=a[j];
        a[j]=a[j+1];

@@ -362,8 +362,8 @@
 <pre><code>  public bubbleSort(){
   inta[]= {49,38,65,97,76,13,27,49,78,34,12,64,5,4,62,99, 98,54,56,17,18,23,34,15,35,25,53,51};
   int temp=0;
-  for(int i=0;i&lt;a.length-1;i++){
-   for(int j=0;j&lt;a.length-1-i;j++){
+  for(int i=0;i&lt;a.length-1;i++){  //N个数至少要交换N-1轮
+   for(int j=0;j&lt;a.length-1-i;j++){ //每一轮都有一个数沉底，所以当进行到N轮就有N个数沉底要减去i
      if(a[j]&gt;a[j+1]){
        temp=a[j];
        a[j]=a[j+1];
