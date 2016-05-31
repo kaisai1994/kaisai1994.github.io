@@ -4,6 +4,21 @@
   
     
     <entry>
+      <title><![CDATA[JavaIO学习笔记总结]]></title>
+      <url>http://kaisai1994.com/blog/2016/05/JavaIO%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93%E7%AC%94%E8%AE%B0.html</url>
+      <content type="html"><![CDATA[<p>说道JavaIO流可能就要祭出这张图了，·<img src="http://pic002.cnblogs.com/images/2012/384764/2012031413373126.jpg" alt=""><br>这张图很清楚的将IO流的体系划分了出来</p>
+<h1 id="流的概念和作用"><a href="#流的概念和作用" class="headerlink" title="流的概念和作用"></a>流的概念和作用</h1><p>  流是一组有顺序的，有起点和终点的字节集合，是对数据传输的总称或抽象。即数据在两设备间的传输称为流，流的本质是数据传输，根据数据传输特性将流抽象为各种类，方便更直观的进行数据操作。 </p>
+<h1 id="IO流的分类"><a href="#IO流的分类" class="headerlink" title="IO流的分类"></a>IO流的分类</h1><ul>
+<li>根据处理数据类型的不同分为：字符流和字节流</li>
+<li>根据数据流向不同分为：输入流和输出流</li>
+</ul>
+<h1 id="字符流和字节流"><a href="#字符流和字节流" class="headerlink" title="字符流和字节流"></a>字符流和字节流</h1><p>  字节流：处理字节数据的流对象。设备上的数据无论是图片或者dvd，文字，它们都以二进制存储的。二进制的最终都是以一个8位为数据单元进行体现，所以计算机中的最小数据单元就是字节。意味着，字节流可以处理设备上的所有数据，所以字节流一样可以处理字符数据。<br>  那么为什么要有字符流呢？因为字符每个国家都不一样，所以涉及到了字符编码问题，那么GBK编码的中文用unicode编码解析是有问题的，所以需要获取中文字节数据的同时+ 指定的编码表才可以解析正确数据。为了方便于文字的解析，所以将字节流和编码表封装成对象，这个对象就是字符流。只要操作字符数据，优先考虑使用字符流体系。<br>  注意：流的操作只有两种：读和写。<br>  流的体系因为功能不同，但是有共性内容，不断抽取，形成继承体系。该体系一共有四个基类，而且都是抽象类。</p>
+<p>  <strong>字节流：InputStream  OutputStream</strong></p>
+<p>  <strong>字符流：Reader  Writer</strong></p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[数据结构与算法之排序]]></title>
       <url>http://kaisai1994.com/blog/2016/05/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E4%B9%8B%E6%8E%92%E5%BA%8F.html</url>
       <content type="html"><![CDATA[<h1 id="冒泡排序"><a href="#冒泡排序" class="headerlink" title="冒泡排序"></a>冒泡排序</h1><p>  冒泡排序是通过两辆相邻互换的方式每一轮对比出一个最大或者最小值，好比一群个头大小不同的人排队，个子高的人不停与身边相邻的人对比，然后互换位置，冒泡排序大致就是这个原理。<br><img src="http://img.my.csdn.net/uploads/201209/07/1347009396_8149.jpg" alt=""></p>
