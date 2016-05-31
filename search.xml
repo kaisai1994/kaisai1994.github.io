@@ -6,7 +6,7 @@
     <entry>
       <title><![CDATA[JavaIO学习笔记总结]]></title>
       <url>http://kaisai1994.com/blog/2016/05/JavaIO%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93%E7%AC%94%E8%AE%B0.html</url>
-      <content type="html"><![CDATA[<p>说道JavaIO流可能就要祭出这张图了，·<img src="http://pic002.cnblogs.com/images/2012/384764/2012031413373126.jpg" alt=""><br>这张图很清楚的将IO流的体系划分了出来</p>
+      <content type="html"><![CDATA[<p>说道JavaIO流可能就要祭出这张图了，·<img src="http://pic002.cnblogs.com/images/2012/384764/2012031413373126.jpg" alt=""><br>这张图很清楚的将IO流的体系划分了出来<br> <a id="more"></a></p>
 <h1 id="流的概念和作用"><a href="#流的概念和作用" class="headerlink" title="流的概念和作用"></a>流的概念和作用</h1><p>  流是一组有顺序的，有起点和终点的字节集合，是对数据传输的总称或抽象。即数据在两设备间的传输称为流，流的本质是数据传输，根据数据传输特性将流抽象为各种类，方便更直观的进行数据操作。 </p>
 <h1 id="IO流的分类"><a href="#IO流的分类" class="headerlink" title="IO流的分类"></a>IO流的分类</h1><ul>
 <li>根据处理数据类型的不同分为：字符流和字节流</li>

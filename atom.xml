@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kaisai1994.com/"/>
-  <updated>2016-05-31T15:24:59.205Z</updated>
+  <updated>2016-05-31T15:26:57.002Z</updated>
   <id>http://kaisai1994.com/</id>
   
   <author>
@@ -20,9 +20,9 @@
     <link href="http://kaisai1994.com//blog/2016/05/JavaIO%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93%E7%AC%94%E8%AE%B0.html"/>
     <id>http://kaisai1994.com//blog/2016/05/JavaIO学习总结笔记.html</id>
     <published>2016-05-31T02:56:36.555Z</published>
-    <updated>2016-05-31T15:24:59.205Z</updated>
+    <updated>2016-05-31T15:26:57.002Z</updated>
     
-    <content type="html">&lt;p&gt;说道JavaIO流可能就要祭出这张图了，·&lt;img src=&quot;http://pic002.cnblogs.com/images/2012/384764/2012031413373126.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;这张图很清楚的将IO流的体系划分了出来&lt;/p&gt;
+    <content type="html">&lt;p&gt;说道JavaIO流可能就要祭出这张图了，·&lt;img src=&quot;http://pic002.cnblogs.com/images/2012/384764/2012031413373126.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;这张图很清楚的将IO流的体系划分了出来&lt;br&gt; &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&quot;流的概念和作用&quot;&gt;&lt;a href=&quot;#流的概念和作用&quot; class=&quot;headerlink&quot; title=&quot;流的概念和作用&quot;&gt;&lt;/a&gt;流的概念和作用&lt;/h1&gt;&lt;p&gt;  流是一组有顺序的，有起点和终点的字节集合，是对数据传输的总称或抽象。即数据在两设备间的传输称为流，流的本质是数据传输，根据数据传输特性将流抽象为各种类，方便更直观的进行数据操作。 &lt;/p&gt;
 &lt;h1 id=&quot;IO流的分类&quot;&gt;&lt;a href=&quot;#IO流的分类&quot; class=&quot;headerlink&quot; title=&quot;IO流的分类&quot;&gt;&lt;/a&gt;IO流的分类&lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;根据处理数据类型的不同分为：字符流和字节流&lt;/li&gt;
@@ -35,8 +35,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;说道JavaIO流可能就要祭出这张图了，·&lt;img src=&quot;http://pic002.cnblogs.com/images/2012/384764/2012031413373126.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;这张图很清楚的将IO流的体系划分了出来&lt;/p&gt;
-&lt;h1 
+      &lt;p&gt;说道JavaIO流可能就要祭出这张图了，·&lt;img src=&quot;http://pic002.cnblogs.com/images/2012/384764/2012031413373126.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;这张图很清楚的将IO流的体系划分了出来&lt;br&gt;
     
     </summary>
     
