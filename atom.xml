@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kaisai1994.com/"/>
-  <updated>2016-06-02T12:31:04.106Z</updated>
+  <updated>2016-06-02T12:41:11.659Z</updated>
   <id>http://kaisai1994.com/</id>
   
   <author>
@@ -20,27 +20,11 @@
     <link href="http://kaisai1994.com//blog/2016/06/%E5%89%91%E6%8C%87offer%E9%A2%98%E7%9B%AE%E8%81%94%E7%B3%BB.html"/>
     <id>http://kaisai1994.com//blog/2016/06/剑指offer题目联系.html</id>
     <published>2016-06-02T12:13:44.809Z</published>
-    <updated>2016-06-02T12:31:04.106Z</updated>
+    <updated>2016-06-02T12:41:11.659Z</updated>
     
-    <content type="html">&lt;h1 id=&quot;题目1-二叉树的深度&quot;&gt;&lt;a href=&quot;#题目1-二叉树的深度&quot; class=&quot;headerlink&quot; title=&quot;题目1 二叉树的深度&quot;&gt;&lt;/a&gt;题目1 二叉树的深度&lt;/h1&gt;&lt;p&gt;输入一棵二叉树，求该树的深度。从根结点到叶结点依次经过的结点（含根、叶结点）形成树的一条路径，最长路径的长度为树的深度。&lt;br&gt;解答:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;用递归的方法从根节点左右孩子出发一直遍历直到叶子节点
-public class Solution {
-public int TreeDepth(TreeNode pRoot)
-{
-    if(pRoot == null) return 0;
-    else{
-        if(TreeDepth(pRoot.left) &amp;gt; TreeDepth(pRoot.right))
-        {
-            return TreeDepth(pRoot.left) + 1;
-        }
-        else{
-            return TreeDepth(pRoot.right) + 1;
-        }
-    }
-  }
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&quot;题目2-不用加减乘除做加法&quot;&gt;&lt;a href=&quot;#题目2-不用加减乘除做加法&quot; class=&quot;headerlink&quot; title=&quot;题目2 不用加减乘除做加法&quot;&gt;&lt;/a&gt;题目2 不用加减乘除做加法&lt;/h1&gt;&lt;p&gt;题目描述 写一个函数，求两个整数之和，要求在函数体内不得使用+、-、*、/四则运算符号。&lt;br&gt;解答：这个题目考查异或运算，但是偶然看到一位神用Java BigInteger.add做出来让我吐血三升，还有这样的方法，这里来实现一下用异或来写的代码。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;      public class Solution {
+    <content type="html">&lt;h1 id=&quot;题目1-二叉树的深度&quot;&gt;&lt;a href=&quot;#题目1-二叉树的深度&quot; class=&quot;headerlink&quot; title=&quot;题目1 二叉树的深度&quot;&gt;&lt;/a&gt;题目1 二叉树的深度&lt;/h1&gt;&lt;p&gt;输入一棵二叉树，求该树的深度。从根结点到叶结点依次经过的结点（含根、叶结点）形成树的一条路径，最长路径的长度为树的深度。&lt;br&gt;解答:用递归的方法从根节点左右孩子出发一直遍历直到叶子节点&lt;br&gt;&amp;lt;–!more–&amp;gt;&lt;br&gt;    public class Solution {&lt;br&gt;    public int TreeDepth(TreeNode pRoot)&lt;br&gt;    {&lt;br&gt;        if(pRoot == null) return 0;&lt;br&gt;        else{&lt;br&gt;            if(TreeDepth(pRoot.left) &amp;gt; TreeDepth(pRoot.right))&lt;br&gt;            {&lt;br&gt;                return TreeDepth(pRoot.left) + 1;&lt;br&gt;            }&lt;br&gt;            else{&lt;br&gt;                return TreeDepth(pRoot.right) + 1;&lt;br&gt;            }&lt;br&gt;        }&lt;br&gt;      }&lt;br&gt;    }&lt;/p&gt;
+&lt;h1 id=&quot;题目2-不用加减乘除做加法&quot;&gt;&lt;a href=&quot;#题目2-不用加减乘除做加法&quot; class=&quot;headerlink&quot; title=&quot;题目2 不用加减乘除做加法&quot;&gt;&lt;/a&gt;题目2 不用加减乘除做加法&lt;/h1&gt;&lt;p&gt;题目描述 写一个函数，求两个整数之和，要求在函数体内不得使用+、-、*、/四则运算符号。&lt;br&gt;解答：这个题目考查异或运算，但是偶然看到一位神用Java BigInteger.add做出来让我吐血三升，还有这样的方法，这里来实现一下用异或来写的代码。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;   public class Solution {
     public int Add(int num1,int num2) {
         while (num2!=0) {
             int temp = num1^num2;
@@ -50,7 +34,11 @@ public int TreeDepth(TreeNode pRoot)
         return num1;
     }
 }
-&lt;/code&gt;&lt;/pre&gt;</content>
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;首先看十进制是如何做的： 5+7=12，三步走&lt;br&gt;第一步：相加各位的值，不算进位，得到2。&lt;br&gt;第二步：计算进位值，得到10. 如果这一步的进位值为0，那么第一步得到的值就是最终结果。&lt;br&gt;第三步：重复上述两步，只是相加的值变成上述两步的得到的结果2和10，得到12。&lt;br&gt;同样我们可以用三步走的方式计算二进制值相加： 5-101，7-111 第一步：相加各位的值，不算进位，得到010，二进制每位相加就相当于各位做异或操作，101^111。&lt;br&gt;第二步：计算进位值，得到1010，相当于各位做与操作得到101，再向左移一位得到1010，(101&amp;amp;111)&amp;lt;&amp;lt;1。&lt;/p&gt;
+&lt;p&gt;第三步重复上述两步， 各位相加 010^1010=1000，进位值为100=(010&amp;amp;1010)&amp;lt;&amp;lt;1。&lt;br&gt;继续重复上述两步：1000^100 = 1100，进位值为0，跳出循环，1100为最终结果。&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
     
     <summary type="html">
     

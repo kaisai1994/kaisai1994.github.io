@@ -86,31 +86,16 @@
 
 
 
-<meta name="description" content="题目1 二叉树的深度输入一棵二叉树，求该树的深度。从根结点到叶结点依次经过的结点（含根、叶结点）形成树的一条路径，最长路径的长度为树的深度。解答:
-用递归的方法从根节点左右孩子出发一直遍历直到叶子节点
-public class Solution {
-public int TreeDepth(TreeNode pRoot)
-{
-    if(pRoot == null) return 0;">
+<meta name="description" content="题目1 二叉树的深度输入一棵二叉树，求该树的深度。从根结点到叶结点依次经过的结点（含根、叶结点）形成树的一条路径，最长路径的长度为树的深度。解答:用递归的方法从根节点左右孩子出发一直遍历直到叶子节点&amp;lt;–!more–&amp;gt;    public class Solution {    public int TreeDepth(TreeNode pRoot)    {        if(pRo">
 <meta property="og:type" content="article">
 <meta property="og:title" content="剑指Offer题目练习">
 <meta property="og:url" content="http://kaisai1994.com/blog/2016/06/剑指offer题目联系.html">
 <meta property="og:site_name" content="小菜鸟大成长">
-<meta property="og:description" content="题目1 二叉树的深度输入一棵二叉树，求该树的深度。从根结点到叶结点依次经过的结点（含根、叶结点）形成树的一条路径，最长路径的长度为树的深度。解答:
-用递归的方法从根节点左右孩子出发一直遍历直到叶子节点
-public class Solution {
-public int TreeDepth(TreeNode pRoot)
-{
-    if(pRoot == null) return 0;">
-<meta property="og:updated_time" content="2016-06-02T12:31:04.106Z">
+<meta property="og:description" content="题目1 二叉树的深度输入一棵二叉树，求该树的深度。从根结点到叶结点依次经过的结点（含根、叶结点）形成树的一条路径，最长路径的长度为树的深度。解答:用递归的方法从根节点左右孩子出发一直遍历直到叶子节点&amp;lt;–!more–&amp;gt;    public class Solution {    public int TreeDepth(TreeNode pRoot)    {        if(pRo">
+<meta property="og:updated_time" content="2016-06-02T12:41:11.659Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="剑指Offer题目练习">
-<meta name="twitter:description" content="题目1 二叉树的深度输入一棵二叉树，求该树的深度。从根结点到叶结点依次经过的结点（含根、叶结点）形成树的一条路径，最长路径的长度为树的深度。解答:
-用递归的方法从根节点左右孩子出发一直遍历直到叶子节点
-public class Solution {
-public int TreeDepth(TreeNode pRoot)
-{
-    if(pRoot == null) return 0;">
+<meta name="twitter:description" content="题目1 二叉树的深度输入一棵二叉树，求该树的深度。从根结点到叶结点依次经过的结点（含根、叶结点）形成树的一条路径，最长路径的长度为树的深度。解答:用递归的方法从根节点左右孩子出发一直遍历直到叶子节点&amp;lt;–!more–&amp;gt;    public class Solution {    public int TreeDepth(TreeNode pRoot)    {        if(pRo">
 
 
 
@@ -353,25 +338,9 @@ public int TreeDepth(TreeNode pRoot)
       
 
       
-        <h1 id="题目1-二叉树的深度"><a href="#题目1-二叉树的深度" class="headerlink" title="题目1 二叉树的深度"></a>题目1 二叉树的深度</h1><p>输入一棵二叉树，求该树的深度。从根结点到叶结点依次经过的结点（含根、叶结点）形成树的一条路径，最长路径的长度为树的深度。<br>解答:</p>
-<pre><code>用递归的方法从根节点左右孩子出发一直遍历直到叶子节点
-public class Solution {
-public int TreeDepth(TreeNode pRoot)
-{
-    if(pRoot == null) return 0;
-    else{
-        if(TreeDepth(pRoot.left) &gt; TreeDepth(pRoot.right))
-        {
-            return TreeDepth(pRoot.left) + 1;
-        }
-        else{
-            return TreeDepth(pRoot.right) + 1;
-        }
-    }
-  }
-}
-</code></pre><h1 id="题目2-不用加减乘除做加法"><a href="#题目2-不用加减乘除做加法" class="headerlink" title="题目2 不用加减乘除做加法"></a>题目2 不用加减乘除做加法</h1><p>题目描述 写一个函数，求两个整数之和，要求在函数体内不得使用+、-、*、/四则运算符号。<br>解答：这个题目考查异或运算，但是偶然看到一位神用Java BigInteger.add做出来让我吐血三升，还有这样的方法，这里来实现一下用异或来写的代码。</p>
-<pre><code>      public class Solution {
+        <h1 id="题目1-二叉树的深度"><a href="#题目1-二叉树的深度" class="headerlink" title="题目1 二叉树的深度"></a>题目1 二叉树的深度</h1><p>输入一棵二叉树，求该树的深度。从根结点到叶结点依次经过的结点（含根、叶结点）形成树的一条路径，最长路径的长度为树的深度。<br>解答:用递归的方法从根节点左右孩子出发一直遍历直到叶子节点<br>&lt;–!more–&gt;<br>    public class Solution {<br>    public int TreeDepth(TreeNode pRoot)<br>    {<br>        if(pRoot == null) return 0;<br>        else{<br>            if(TreeDepth(pRoot.left) &gt; TreeDepth(pRoot.right))<br>            {<br>                return TreeDepth(pRoot.left) + 1;<br>            }<br>            else{<br>                return TreeDepth(pRoot.right) + 1;<br>            }<br>        }<br>      }<br>    }</p>
+<h1 id="题目2-不用加减乘除做加法"><a href="#题目2-不用加减乘除做加法" class="headerlink" title="题目2 不用加减乘除做加法"></a>题目2 不用加减乘除做加法</h1><p>题目描述 写一个函数，求两个整数之和，要求在函数体内不得使用+、-、*、/四则运算符号。<br>解答：这个题目考查异或运算，但是偶然看到一位神用Java BigInteger.add做出来让我吐血三升，还有这样的方法，这里来实现一下用异或来写的代码。</p>
+<pre><code>   public class Solution {
     public int Add(int num1,int num2) {
         while (num2!=0) {
             int temp = num1^num2;
@@ -381,7 +350,11 @@ public int TreeDepth(TreeNode pRoot)
         return num1;
     }
 }
-</code></pre>
+</code></pre><blockquote>
+<p>首先看十进制是如何做的： 5+7=12，三步走<br>第一步：相加各位的值，不算进位，得到2。<br>第二步：计算进位值，得到10. 如果这一步的进位值为0，那么第一步得到的值就是最终结果。<br>第三步：重复上述两步，只是相加的值变成上述两步的得到的结果2和10，得到12。<br>同样我们可以用三步走的方式计算二进制值相加： 5-101，7-111 第一步：相加各位的值，不算进位，得到010，二进制每位相加就相当于各位做异或操作，101^111。<br>第二步：计算进位值，得到1010，相当于各位做与操作得到101，再向左移一位得到1010，(101&amp;111)&lt;&lt;1。</p>
+<p>第三步重复上述两步， 各位相加 010^1010=1000，进位值为100=(010&amp;1010)&lt;&lt;1。<br>继续重复上述两步：1000^100 = 1100，进位值为0，跳出循环，1100为最终结果。</p>
+</blockquote>
+
       
     </div>
 
