@@ -20,22 +20,19 @@
 <li>设计模式</li>
 <li>Java多线程的实现及同步</li>
 </ul>
-<p>####操作系统</p>
-<ul>
+<h4 id="操作系统"><a href="#操作系统" class="headerlink" title="操作系统"></a>操作系统</h4><ul>
 <li>线程和进程的区别</li>
 <li>操作系统如何实现多线程的调用</li>
 </ul>
-<p>####软件工程</p>
-<ul>
+<h4 id="软件工程"><a href="#软件工程" class="headerlink" title="软件工程"></a>软件工程</h4><ul>
 <li>开发的瀑布模型</li>
 <li>开发软件项目的历程</li>
 <li>系统设计和详细设计的区别，类图在哪个阶段画的</li>
 <li>测试</li>
 <li>如何做到覆盖测试，覆盖到每个分支</li>
 </ul>
-<p>####Android<br>区别2.X 3.X 4.X</p>
-<h1 id="蘑菇街"><a href="#蘑菇街" class="headerlink" title="蘑菇街"></a>蘑菇街</h1><p>####Android</p>
-<ul>
+<h4 id="Android"><a href="#Android" class="headerlink" title="Android"></a>Android</h4><p>区别2.X 3.X 4.X</p>
+<h1 id="蘑菇街"><a href="#蘑菇街" class="headerlink" title="蘑菇街"></a>蘑菇街</h1><h4 id="Android-1"><a href="#Android-1" class="headerlink" title="Android"></a>Android</h4><ul>
 <li>touch event的事件传递机制</li>
 <li>activity四种启动模式</li>
 <li>常见设计模式和使用情况</li>

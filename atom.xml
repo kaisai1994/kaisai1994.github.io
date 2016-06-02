@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kaisai1994.com/"/>
-  <updated>2016-06-02T08:39:18.154Z</updated>
+  <updated>2016-06-02T08:41:09.002Z</updated>
   <id>http://kaisai1994.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://kaisai1994.com//blog/2016/06/Android%E9%9D%A2%E8%AF%95%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93.html"/>
     <id>http://kaisai1994.com//blog/2016/06/Android面试经验总结.html</id>
     <published>2016-06-02T08:35:09.100Z</published>
-    <updated>2016-06-02T08:39:18.154Z</updated>
+    <updated>2016-06-02T08:41:09.002Z</updated>
     
     <content type="html">&lt;p&gt;最近常混迹一些论坛还有一些讨论组，发现很多好心人发了很多自己的面试经验，我自己觉得是一次很好的总结，所以把各个人的面试经验提到的问题又总结了一下，发现面试技术很多都注意基础，还有一些都是经常会被考到的技术点，自己总结出来一份也帮助自己好好准备面试。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&quot;百度&quot;&gt;&lt;a href=&quot;#百度&quot; class=&quot;headerlink&quot; title=&quot;百度&quot;&gt;&lt;/a&gt;百度&lt;/h1&gt;&lt;h4 id=&quot;网络技术&quot;&gt;&lt;a href=&quot;#网络技术&quot; class=&quot;headerlink&quot; title=&quot;网络技术&quot;&gt;&lt;/a&gt;网络技术&lt;/h4&gt;&lt;ul&gt;
@@ -36,22 +36,19 @@
 &lt;li&gt;设计模式&lt;/li&gt;
 &lt;li&gt;Java多线程的实现及同步&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;####操作系统&lt;/p&gt;
-&lt;ul&gt;
+&lt;h4 id=&quot;操作系统&quot;&gt;&lt;a href=&quot;#操作系统&quot; class=&quot;headerlink&quot; title=&quot;操作系统&quot;&gt;&lt;/a&gt;操作系统&lt;/h4&gt;&lt;ul&gt;
 &lt;li&gt;线程和进程的区别&lt;/li&gt;
 &lt;li&gt;操作系统如何实现多线程的调用&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;####软件工程&lt;/p&gt;
-&lt;ul&gt;
+&lt;h4 id=&quot;软件工程&quot;&gt;&lt;a href=&quot;#软件工程&quot; class=&quot;headerlink&quot; title=&quot;软件工程&quot;&gt;&lt;/a&gt;软件工程&lt;/h4&gt;&lt;ul&gt;
 &lt;li&gt;开发的瀑布模型&lt;/li&gt;
 &lt;li&gt;开发软件项目的历程&lt;/li&gt;
 &lt;li&gt;系统设计和详细设计的区别，类图在哪个阶段画的&lt;/li&gt;
 &lt;li&gt;测试&lt;/li&gt;
 &lt;li&gt;如何做到覆盖测试，覆盖到每个分支&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;####Android&lt;br&gt;区别2.X 3.X 4.X&lt;/p&gt;
-&lt;h1 id=&quot;蘑菇街&quot;&gt;&lt;a href=&quot;#蘑菇街&quot; class=&quot;headerlink&quot; title=&quot;蘑菇街&quot;&gt;&lt;/a&gt;蘑菇街&lt;/h1&gt;&lt;p&gt;####Android&lt;/p&gt;
-&lt;ul&gt;
+&lt;h4 id=&quot;Android&quot;&gt;&lt;a href=&quot;#Android&quot; class=&quot;headerlink&quot; title=&quot;Android&quot;&gt;&lt;/a&gt;Android&lt;/h4&gt;&lt;p&gt;区别2.X 3.X 4.X&lt;/p&gt;
+&lt;h1 id=&quot;蘑菇街&quot;&gt;&lt;a href=&quot;#蘑菇街&quot; class=&quot;headerlink&quot; title=&quot;蘑菇街&quot;&gt;&lt;/a&gt;蘑菇街&lt;/h1&gt;&lt;h4 id=&quot;Android-1&quot;&gt;&lt;a href=&quot;#Android-1&quot; class=&quot;headerlink&quot; title=&quot;Android&quot;&gt;&lt;/a&gt;Android&lt;/h4&gt;&lt;ul&gt;
 &lt;li&gt;touch event的事件传递机制&lt;/li&gt;
 &lt;li&gt;activity四种启动模式&lt;/li&gt;
 &lt;li&gt;常见设计模式和使用情况&lt;/li&gt;
