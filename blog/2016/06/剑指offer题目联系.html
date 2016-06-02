@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="算法,剑指Offer," />
 
 
 
@@ -86,15 +86,31 @@
 
 
 
-<meta name="description" content="Android开发程序媛，爱二次元">
-<meta property="og:type" content="website">
-<meta property="og:title" content="小菜鸟大成长">
-<meta property="og:url" content="http://kaisai1994.com/index.html">
+<meta name="description" content="题目1 二叉树的深度输入一棵二叉树，求该树的深度。从根结点到叶结点依次经过的结点（含根、叶结点）形成树的一条路径，最长路径的长度为树的深度。解答:
+用递归的方法从根节点左右孩子出发一直遍历直到叶子节点
+public class Solution {
+public int TreeDepth(TreeNode pRoot)
+{
+    if(pRoot == null) return 0;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="剑指Offer题目练习">
+<meta property="og:url" content="http://kaisai1994.com/blog/2016/06/剑指offer题目联系.html">
 <meta property="og:site_name" content="小菜鸟大成长">
-<meta property="og:description" content="Android开发程序媛，爱二次元">
+<meta property="og:description" content="题目1 二叉树的深度输入一棵二叉树，求该树的深度。从根结点到叶结点依次经过的结点（含根、叶结点）形成树的一条路径，最长路径的长度为树的深度。解答:
+用递归的方法从根节点左右孩子出发一直遍历直到叶子节点
+public class Solution {
+public int TreeDepth(TreeNode pRoot)
+{
+    if(pRoot == null) return 0;">
+<meta property="og:updated_time" content="2016-06-02T12:31:04.106Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="小菜鸟大成长">
-<meta name="twitter:description" content="Android开发程序媛，爱二次元">
+<meta name="twitter:title" content="剑指Offer题目练习">
+<meta name="twitter:description" content="题目1 二叉树的深度输入一棵二叉树，求该树的深度。从根结点到叶结点依次经过的结点（含根、叶结点）形成树的一条路径，最长路径的长度为树的深度。解答:
+用递归的方法从根节点左右孩子出发一直遍历直到叶子节点
+public class Solution {
+public int TreeDepth(TreeNode pRoot)
+{
+    if(pRoot == null) return 0;">
 
 
 
@@ -112,7 +128,7 @@
   };
 </script>
 
-  <title> 小菜鸟大成长 </title>
+  <title> 剑指Offer题目练习 | 小菜鸟大成长 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -143,9 +159,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-right 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-right page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -265,9 +279,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
   
@@ -287,10 +301,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/blog/2016/06/剑指offer题目联系.html" itemprop="url">
-                  剑指Offer题目练习
-                </a>
+                剑指Offer题目练习
               
             
           </h1>
@@ -326,6 +337,11 @@
           
 
           
+              &nbsp; | &nbsp;
+              <span class="page-pv">本文总阅读量
+              <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>次
+              </span>
+          
         </div>
       </header>
     
@@ -337,9 +353,7 @@
       
 
       
-        
-          
-            <h1 id="题目1-二叉树的深度"><a href="#题目1-二叉树的深度" class="headerlink" title="题目1 二叉树的深度"></a>题目1 二叉树的深度</h1><p>输入一棵二叉树，求该树的深度。从根结点到叶结点依次经过的结点（含根、叶结点）形成树的一条路径，最长路径的长度为树的深度。<br>解答:</p>
+        <h1 id="题目1-二叉树的深度"><a href="#题目1-二叉树的深度" class="headerlink" title="题目1 二叉树的深度"></a>题目1 二叉树的深度</h1><p>输入一棵二叉树，求该树的深度。从根结点到叶结点依次经过的结点（含根、叶结点）形成树的一条路径，最长路径的长度为树的深度。<br>解答:</p>
 <pre><code>用递归的方法从根节点左右孩子出发一直遍历直到叶子节点
 public class Solution {
 public int TreeDepth(TreeNode pRoot)
@@ -368,531 +382,122 @@ public int TreeDepth(TreeNode pRoot)
     }
 }
 </code></pre>
-          
+      
+    </div>
+
+    <div>
+      
         
       
     </div>
 
     <div>
       
+        
+  <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+    <div>如果你觉得文章不错，请作者吃个雪糕吧</div>
+    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+      <span>赏</span>
+    </button>
+    <div id="QR" style="display: none;">
+      
+        <div id="wechat" style="display: inline-block">
+          <img id="wechat_qr" src="/images/1.jpg" alt="kaisai1994 WeChat Pay"/>
+          <p>微信打赏</p>
+        </div>
+      
+      
+        <div id="alipay" style="display: inline-block">
+          <img id="alipay_qr" src="/images/2.jpg" alt="kaisai1994 Alipay"/>
+          <p>支付宝打赏</p>
+        </div>
+      
     </div>
+  </div>
 
-    <div>
+
       
     </div>
 
     <footer class="post-footer">
       
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/blog/2016/06/Android面试经验总结.html" itemprop="url">
-                  Android面试经验总结
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-06-02T16:35:09+08:00" content="2016-06-02">
-              2016-06-02
-            </time>
-          </span>
-
+        <div class="post-tags">
           
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/面试总结/" itemprop="url" rel="index">
-                    <span itemprop="name">面试总结</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
+            <a href="/tags/算法/" rel="tag">#算法</a>
           
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/blog/2016/06/Android面试经验总结.html#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="/blog/2016/06/Android面试经验总结.html" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
+            <a href="/tags/剑指Offer/" rel="tag">#剑指Offer</a>
           
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          <p>最近常混迹一些论坛还有一些讨论组，发现很多好心人发了很多自己的面试经验，我自己觉得是一次很好的总结，所以把各个人的面试经验提到的问题又总结了一下，发现面试技术很多都注意基础，还有一些都是经常会被考到的技术点，自己总结出来一份也帮助自己好好准备面试。<br>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/blog/2016/06/Android面试经验总结.html#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/blog/2016/06/Android面试经验总结.html" rel="next" title="Android面试经验总结">
+                <i class="fa fa-chevron-left"></i> Android面试经验总结
+              </a>
+            
           </div>
-        
-      
-    </div>
 
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
+          <div class="post-nav-prev post-nav-item">
             
-            
-              
-                
-                <a class="post-title-link" href="/blog/2016/05/JavaIO学习总结笔记.html" itemprop="url">
-                  JavaIO学习笔记总结
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-05-31T10:56:36+08:00" content="2016-05-31">
-              2016-05-31
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/Java/" itemprop="url" rel="index">
-                    <span itemprop="name">Java</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/blog/2016/05/JavaIO学习总结笔记.html#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="/blog/2016/05/JavaIO学习总结笔记.html" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
+          </div>
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          <p>说道JavaIO流可能就要祭出这张图了，·<img src="http://pic002.cnblogs.com/images/2012/384764/2012031413373126.jpg" alt=""><br>这张图很清楚的将IO流的体系划分了出来<br>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/blog/2016/05/JavaIO学习总结笔记.html#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
+
+    <div class="post-spread">
       
+        <!-- JiaThis Button BEGIN -->
+<div class="jiathis_style">
+  <a class="jiathis_button_tsina"></a>
+  <a class="jiathis_button_tqq"></a>
+  <a class="jiathis_button_weixin"></a>
+  <a class="jiathis_button_cqq"></a>
+  <a class="jiathis_button_douban"></a>
+  <a class="jiathis_button_renren"></a>
+  <a class="jiathis_button_qzone"></a>
+  <a class="jiathis_button_kaixin001"></a>
+  <a class="jiathis_button_copy"></a>
+  <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank"></a>
+  <a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" >
+  var jiathis_config={
+    hideMore:false
+  }
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+<!-- JiaThis Button END -->
 
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/blog/2016/05/数据结构与算法之排序.html" itemprop="url">
-                  数据结构与算法之排序
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-05-30T21:53:44+08:00" content="2016-05-30">
-              2016-05-30
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/数据结构与算法/" itemprop="url" rel="index">
-                    <span itemprop="name">数据结构与算法</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/blog/2016/05/数据结构与算法之排序.html#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="/blog/2016/05/数据结构与算法之排序.html" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <h1 id="冒泡排序"><a href="#冒泡排序" class="headerlink" title="冒泡排序"></a>冒泡排序</h1><p>  冒泡排序是通过两辆相邻互换的方式每一轮对比出一个最大或者最小值，好比一群个头大小不同的人排队，个子高的人不停与身边相邻的人对比，然后互换位置，冒泡排序大致就是这个原理。<br><img src="http://img.my.csdn.net/uploads/201209/07/1347009396_8149.jpg" alt=""></p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/blog/2016/05/数据结构与算法之排序.html#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
       
     </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/blog/2016/05/基于Github利用Hexo搭建一个专属博客.html" itemprop="url">
-                  基于Github利用Hexo搭建一个专属博客
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-05-26T22:44:21+08:00" content="2016-05-26">
-              2016-05-26
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/技术/" itemprop="url" rel="index">
-                    <span itemprop="name">技术</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/blog/2016/05/基于Github利用Hexo搭建一个专属博客.html#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="/blog/2016/05/基于Github利用Hexo搭建一个专属博客.html" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>通过本次教程你可以一步一步的搭建一个属于你自己的博客，我们需要的技术有Github和Hexo的配置，只需短短的几十分钟，你就可以搭建一个属于自己的博客了</p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/blog/2016/05/基于Github利用Hexo搭建一个专属博客.html#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-  </section>
-
-  
+  </div>
 
 
           </div>
           
 
+  <p>热评文章</p>
+  <div class="ds-top-threads" data-range="weekly" data-num-items="4"></div>
+
 
           
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="/blog/2016/06/剑指offer题目联系.html"
+           data-title="剑指Offer题目练习" data-url="http://kaisai1994.com/blog/2016/06/剑指offer题目联系.html">
+      </div>
+    
+  </div>
+
 
         </div>
         
@@ -912,8 +517,17 @@ public int TreeDepth(TreeNode pRoot)
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.jpg"
@@ -999,6 +613,17 @@ public int TreeDepth(TreeNode pRoot)
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#题目1-二叉树的深度"><span class="nav-number">1.</span> <span class="nav-text">题目1 二叉树的深度</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#题目2-不用加减乘除做加法"><span class="nav-number">2.</span> <span class="nav-text">题目2 不用加减乘除做加法</span></a></li></ol></div>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -1111,6 +736,10 @@ public int TreeDepth(TreeNode pRoot)
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
 
   
 

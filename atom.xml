@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kaisai1994.com/"/>
-  <updated>2016-06-02T08:45:33.266Z</updated>
+  <updated>2016-06-02T12:31:04.106Z</updated>
   <id>http://kaisai1994.com/</id>
   
   <author>
@@ -14,6 +14,56 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>剑指Offer题目练习</title>
+    <link href="http://kaisai1994.com//blog/2016/06/%E5%89%91%E6%8C%87offer%E9%A2%98%E7%9B%AE%E8%81%94%E7%B3%BB.html"/>
+    <id>http://kaisai1994.com//blog/2016/06/剑指offer题目联系.html</id>
+    <published>2016-06-02T12:13:44.809Z</published>
+    <updated>2016-06-02T12:31:04.106Z</updated>
+    
+    <content type="html">&lt;h1 id=&quot;题目1-二叉树的深度&quot;&gt;&lt;a href=&quot;#题目1-二叉树的深度&quot; class=&quot;headerlink&quot; title=&quot;题目1 二叉树的深度&quot;&gt;&lt;/a&gt;题目1 二叉树的深度&lt;/h1&gt;&lt;p&gt;输入一棵二叉树，求该树的深度。从根结点到叶结点依次经过的结点（含根、叶结点）形成树的一条路径，最长路径的长度为树的深度。&lt;br&gt;解答:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;用递归的方法从根节点左右孩子出发一直遍历直到叶子节点
+public class Solution {
+public int TreeDepth(TreeNode pRoot)
+{
+    if(pRoot == null) return 0;
+    else{
+        if(TreeDepth(pRoot.left) &amp;gt; TreeDepth(pRoot.right))
+        {
+            return TreeDepth(pRoot.left) + 1;
+        }
+        else{
+            return TreeDepth(pRoot.right) + 1;
+        }
+    }
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&quot;题目2-不用加减乘除做加法&quot;&gt;&lt;a href=&quot;#题目2-不用加减乘除做加法&quot; class=&quot;headerlink&quot; title=&quot;题目2 不用加减乘除做加法&quot;&gt;&lt;/a&gt;题目2 不用加减乘除做加法&lt;/h1&gt;&lt;p&gt;题目描述 写一个函数，求两个整数之和，要求在函数体内不得使用+、-、*、/四则运算符号。&lt;br&gt;解答：这个题目考查异或运算，但是偶然看到一位神用Java BigInteger.add做出来让我吐血三升，还有这样的方法，这里来实现一下用异或来写的代码。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;      public class Solution {
+    public int Add(int num1,int num2) {
+        while (num2!=0) {
+            int temp = num1^num2;
+            num2 = (num1&amp;amp;num2)&amp;lt;&amp;lt;1;
+            num1 = temp;
+        }
+        return num1;
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;题目1-二叉树的深度&quot;&gt;&lt;a href=&quot;#题目1-二叉树的深度&quot; class=&quot;headerlink&quot; title=&quot;题目1 二叉树的深度&quot;&gt;&lt;/a&gt;题目1 二叉树的深度&lt;/h1&gt;&lt;p&gt;输入一棵二叉树，求该树的深度。从根结点到叶结点依次经过的结点（含根、叶结点）
+    
+    </summary>
+    
+    
+      <category term="算法" scheme="http://kaisai1994.com/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="剑指Offer" scheme="http://kaisai1994.com/tags/%E5%89%91%E6%8C%87Offer/"/>
+    
+  </entry>
   
   <entry>
     <title>Android面试经验总结</title>

@@ -4,6 +4,40 @@
   
     
     <entry>
+      <title><![CDATA[剑指Offer题目练习]]></title>
+      <url>http://kaisai1994.com/blog/2016/06/%E5%89%91%E6%8C%87offer%E9%A2%98%E7%9B%AE%E8%81%94%E7%B3%BB.html</url>
+      <content type="html"><![CDATA[<h1 id="题目1-二叉树的深度"><a href="#题目1-二叉树的深度" class="headerlink" title="题目1 二叉树的深度"></a>题目1 二叉树的深度</h1><p>输入一棵二叉树，求该树的深度。从根结点到叶结点依次经过的结点（含根、叶结点）形成树的一条路径，最长路径的长度为树的深度。<br>解答:</p>
+<pre><code>用递归的方法从根节点左右孩子出发一直遍历直到叶子节点
+public class Solution {
+public int TreeDepth(TreeNode pRoot)
+{
+    if(pRoot == null) return 0;
+    else{
+        if(TreeDepth(pRoot.left) &gt; TreeDepth(pRoot.right))
+        {
+            return TreeDepth(pRoot.left) + 1;
+        }
+        else{
+            return TreeDepth(pRoot.right) + 1;
+        }
+    }
+  }
+}
+</code></pre><h1 id="题目2-不用加减乘除做加法"><a href="#题目2-不用加减乘除做加法" class="headerlink" title="题目2 不用加减乘除做加法"></a>题目2 不用加减乘除做加法</h1><p>题目描述 写一个函数，求两个整数之和，要求在函数体内不得使用+、-、*、/四则运算符号。<br>解答：这个题目考查异或运算，但是偶然看到一位神用Java BigInteger.add做出来让我吐血三升，还有这样的方法，这里来实现一下用异或来写的代码。</p>
+<pre><code>      public class Solution {
+    public int Add(int num1,int num2) {
+        while (num2!=0) {
+            int temp = num1^num2;
+            num2 = (num1&amp;num2)&lt;&lt;1;
+            num1 = temp;
+        }
+        return num1;
+    }
+}
+</code></pre>]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[Android面试经验总结]]></title>
       <url>http://kaisai1994.com/blog/2016/06/Android%E9%9D%A2%E8%AF%95%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93.html</url>
       <content type="html"><![CDATA[<p>最近常混迹一些论坛还有一些讨论组，发现很多好心人发了很多自己的面试经验，我自己觉得是一次很好的总结，所以把各个人的面试经验提到的问题又总结了一下，发现面试技术很多都注意基础，还有一些都是经常会被考到的技术点，自己总结出来一份也帮助自己好好准备面试。<br><a id="more"></a></p>
