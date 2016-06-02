@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kaisai1994.com/"/>
-  <updated>2016-05-31T15:26:57.002Z</updated>
+  <updated>2016-06-02T08:39:18.154Z</updated>
   <id>http://kaisai1994.com/</id>
   
   <author>
@@ -14,6 +14,182 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Android面试经验总结</title>
+    <link href="http://kaisai1994.com//blog/2016/06/Android%E9%9D%A2%E8%AF%95%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93.html"/>
+    <id>http://kaisai1994.com//blog/2016/06/Android面试经验总结.html</id>
+    <published>2016-06-02T08:35:09.100Z</published>
+    <updated>2016-06-02T08:39:18.154Z</updated>
+    
+    <content type="html">&lt;p&gt;最近常混迹一些论坛还有一些讨论组，发现很多好心人发了很多自己的面试经验，我自己觉得是一次很好的总结，所以把各个人的面试经验提到的问题又总结了一下，发现面试技术很多都注意基础，还有一些都是经常会被考到的技术点，自己总结出来一份也帮助自己好好准备面试。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;百度&quot;&gt;&lt;a href=&quot;#百度&quot; class=&quot;headerlink&quot; title=&quot;百度&quot;&gt;&lt;/a&gt;百度&lt;/h1&gt;&lt;h4 id=&quot;网络技术&quot;&gt;&lt;a href=&quot;#网络技术&quot; class=&quot;headerlink&quot; title=&quot;网络技术&quot;&gt;&lt;/a&gt;网络技术&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;TCP和UDP的区别&lt;/li&gt;
+&lt;li&gt;TCP如何保证可靠传输&lt;/li&gt;
+&lt;li&gt;HTTP的报文格式&lt;/li&gt;
+&lt;li&gt;HTTP的头部包含哪些内容&lt;/li&gt;
+&lt;li&gt;cookie实在头部还是数据段，为什么&lt;/li&gt;
+&lt;li&gt;HTTP回复的状态吗和你知道哪些&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;Java面向对象&quot;&gt;&lt;a href=&quot;#Java面向对象&quot; class=&quot;headerlink&quot; title=&quot;Java面向对象:&quot;&gt;&lt;/a&gt;Java面向对象:&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;多态&lt;/li&gt;
+&lt;li&gt;设计模式&lt;/li&gt;
+&lt;li&gt;Java多线程的实现及同步&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;####操作系统&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;线程和进程的区别&lt;/li&gt;
+&lt;li&gt;操作系统如何实现多线程的调用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;####软件工程&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;开发的瀑布模型&lt;/li&gt;
+&lt;li&gt;开发软件项目的历程&lt;/li&gt;
+&lt;li&gt;系统设计和详细设计的区别，类图在哪个阶段画的&lt;/li&gt;
+&lt;li&gt;测试&lt;/li&gt;
+&lt;li&gt;如何做到覆盖测试，覆盖到每个分支&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;####Android&lt;br&gt;区别2.X 3.X 4.X&lt;/p&gt;
+&lt;h1 id=&quot;蘑菇街&quot;&gt;&lt;a href=&quot;#蘑菇街&quot; class=&quot;headerlink&quot; title=&quot;蘑菇街&quot;&gt;&lt;/a&gt;蘑菇街&lt;/h1&gt;&lt;p&gt;####Android&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;touch event的事件传递机制&lt;/li&gt;
+&lt;li&gt;activity四种启动模式&lt;/li&gt;
+&lt;li&gt;常见设计模式和使用情况&lt;/li&gt;
+&lt;li&gt;获取一个button的高度&lt;/li&gt;
+&lt;li&gt;自定义View的流程&lt;/li&gt;
+&lt;li&gt;内存泄漏&lt;/li&gt;
+&lt;li&gt;thread的start和run方法有什么区别，开启一个线程必须调用start方法么&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;网易&quot;&gt;&lt;a href=&quot;#网易&quot; class=&quot;headerlink&quot; title=&quot;网易&quot;&gt;&lt;/a&gt;网易&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;APP怎么防止被强杀，怎么做到多进程&lt;/li&gt;
+&lt;li&gt;Retrofit的优点和好处 MD的控件&lt;/li&gt;
+&lt;li&gt;消息机制&lt;/li&gt;
+&lt;li&gt;布局优化 merge include viewstub&lt;/li&gt;
+&lt;li&gt;android中有哪些动画，View动画与属性动画的区别&lt;/li&gt;
+&lt;li&gt;android网络优化&lt;/li&gt;
+&lt;li&gt;自定义view的过程 三个测量模式，怎样从onMesure的两个参数中获取长度&lt;/li&gt;
+&lt;li&gt;事件分发机制&lt;/li&gt;
+&lt;li&gt;ListView 加载网络图片，怎样防止图片错乱&lt;/li&gt;
+&lt;li&gt;java中的四种引用&lt;/li&gt;
+&lt;li&gt;类加载器，双亲委托&lt;/li&gt;
+&lt;li&gt;http和https的区别 RSA是什么，数字签名&lt;/li&gt;
+&lt;li&gt;dp与px的转换公式，为什么用dp&lt;/li&gt;
+&lt;li&gt;打包签名流程&lt;/li&gt;
+&lt;li&gt;一键结束全部程序，activity会不调用onstop ondestory被强杀怎么恢复数据&lt;/li&gt;
+&lt;li&gt;ANR几秒&lt;/li&gt;
+&lt;li&gt;快排 时间复杂度 O（n2）是怎样的情况&lt;/li&gt;
+&lt;li&gt;volatile和synchronized的区别，锁有哪些，static和synchd修饰的方法是什么锁，两个线程同时i++会怎么样还有线程池&lt;/li&gt;
+&lt;li&gt;AsyncTask &lt;/li&gt;
+&lt;li&gt;有个线程跑完后会显示textview文字，但是没跑完就按返回会发生什么&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;蘑菇街Android开发&quot;&gt;&lt;a href=&quot;#蘑菇街Android开发&quot; class=&quot;headerlink&quot; title=&quot;蘑菇街Android开发&quot;&gt;&lt;/a&gt;蘑菇街Android开发&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;Git做代码托管，rebase，fetch和pull&lt;/li&gt;
+&lt;li&gt;Java虚函数&lt;/li&gt;
+&lt;li&gt;多态&lt;/li&gt;
+&lt;li&gt;Java反射，类加载的Class怎么调用类的所有属性和方法&lt;/li&gt;
+&lt;li&gt;Android中的几种Context有什么区别&lt;/li&gt;
+&lt;li&gt;Android内存泄漏&lt;/li&gt;
+&lt;li&gt;bitmap复用&lt;/li&gt;
+&lt;li&gt;OOM&lt;/li&gt;
+&lt;li&gt;外观模式&lt;/li&gt;
+&lt;li&gt;FrameWork源码&lt;/li&gt;
+&lt;li&gt;自定义控件&lt;/li&gt;
+&lt;li&gt;Android动态加载&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;蘑菇街-1&quot;&gt;&lt;a href=&quot;#蘑菇街-1&quot; class=&quot;headerlink&quot; title=&quot;蘑菇街&quot;&gt;&lt;/a&gt;蘑菇街&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;Android四大组件&lt;/li&gt;
+&lt;li&gt;Android生命周期onpause和onstop&lt;/li&gt;
+&lt;li&gt;Fragment是否看过源码&lt;/li&gt;
+&lt;li&gt;Service有哪几种&lt;/li&gt;
+&lt;li&gt;隐式启动和显式启动&lt;/li&gt;
+&lt;li&gt;Service两种启动方式&lt;/li&gt;
+&lt;li&gt;启动线程方式有哪几种&lt;/li&gt;
+&lt;li&gt;handle消息队列相关&lt;/li&gt;
+&lt;li&gt;几种常见布局， 布局group树过程&lt;/li&gt;
+&lt;li&gt;weight属性&lt;/li&gt;
+&lt;li&gt;布局优化相关&lt;/li&gt;
+&lt;li&gt;ArraylistLinklist&lt;/li&gt;
+&lt;li&gt;线程进程区别&lt;/li&gt;
+&lt;li&gt;一个app能否是多线程&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;360-Android面经&quot;&gt;&lt;a href=&quot;#360-Android面经&quot; class=&quot;headerlink&quot; title=&quot;360 Android面经&quot;&gt;&lt;/a&gt;360 Android面经&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;网络框架实现，volley原理&lt;/li&gt;
+&lt;li&gt;线程池原理，java线程池&lt;/li&gt;
+&lt;li&gt;一个activity只能有一个进程么&lt;/li&gt;
+&lt;li&gt;activity任务栈，启动模式&lt;/li&gt;
+&lt;li&gt;夜间主题&lt;/li&gt;
+&lt;li&gt;动态加载原理，classloader&lt;/li&gt;
+&lt;li&gt;listview实现左滑&lt;/li&gt;
+&lt;li&gt;view的事件分发与渲染流程&lt;/li&gt;
+&lt;li&gt;LruCache的理解原理以及哪些方式实现缓存调度&lt;/li&gt;
+&lt;li&gt;GC原理，实现方式，能否手动控制GC回收&lt;/li&gt;
+&lt;li&gt;OOM内存泄漏的问题&lt;/li&gt;
+&lt;li&gt;mvp与mvc区别，实现原理&lt;/li&gt;
+&lt;li&gt;volley原理，发送五个请求&lt;/li&gt;
+&lt;li&gt;图片缓存技术的实现&lt;/li&gt;
+&lt;li&gt;listview原理，adpter与view如何绑定的，如何自己设计一个类似listview的自定义view，子item复用，管理以及getview实现&lt;/li&gt;
+&lt;li&gt;进程实现方式&lt;/li&gt;
+&lt;li&gt;asynctask&lt;/li&gt;
+&lt;li&gt;CG原理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;网易-1&quot;&gt;&lt;a href=&quot;#网易-1&quot; class=&quot;headerlink&quot; title=&quot;网易&quot;&gt;&lt;/a&gt;网易&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;推送。长连接 心跳连接&lt;/li&gt;
+&lt;li&gt;LTE协议栈项目&lt;/li&gt;
+&lt;li&gt;项目开源框架的源码分析&lt;/li&gt;
+&lt;li&gt;加密算法&lt;/li&gt;
+&lt;li&gt;消息处理机制&lt;/li&gt;
+&lt;li&gt;asynctask&lt;/li&gt;
+&lt;li&gt;android卡顿优化&lt;/li&gt;
+&lt;li&gt;并发&lt;/li&gt;
+&lt;li&gt;属性动画&lt;/li&gt;
+&lt;li&gt;touch事件分发机制&lt;/li&gt;
+&lt;li&gt;android开机过程&lt;/li&gt;
+&lt;li&gt;Service与Thread的区别&lt;/li&gt;
+&lt;li&gt;SQLite并发读取或者写入&lt;/li&gt;
+&lt;li&gt;线程与进程&lt;/li&gt;
+&lt;li&gt;Activity与Service的通信问题&lt;/li&gt;
+&lt;li&gt;Activity与Fragment的生命周期&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;腾讯-amp-阿里&quot;&gt;&lt;a href=&quot;#腾讯-amp-阿里&quot; class=&quot;headerlink&quot; title=&quot;腾讯 &amp;amp; 阿里&quot;&gt;&lt;/a&gt;腾讯 &amp;amp; 阿里&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;volley原理&lt;/li&gt;
+&lt;li&gt;403是什么意思&lt;/li&gt;
+&lt;li&gt;TCP如何实现可靠传输&lt;/li&gt;
+&lt;li&gt;线程进程的区别&lt;/li&gt;
+&lt;li&gt;调度算法&lt;/li&gt;
+&lt;li&gt;快排&lt;/li&gt;
+&lt;li&gt;handle looper MessageQueen&lt;/li&gt;
+&lt;li&gt;UIL和picasso的区别，底层实现&lt;/li&gt;
+&lt;li&gt;java四种引用&lt;/li&gt;
+&lt;li&gt;IPC几种通信方式&lt;/li&gt;
+&lt;li&gt;static加在方法上有什么特殊的含义&lt;/li&gt;
+&lt;li&gt;hashmap的原理&lt;/li&gt;
+&lt;li&gt;String StringBuilder StringBuffer&lt;/li&gt;
+&lt;li&gt;LRU&lt;/li&gt;
+&lt;li&gt;IPC几种通信方式&lt;/li&gt;
+&lt;li&gt;ListView 和RecycleView&lt;/li&gt;
+&lt;li&gt;ActionBar和Toolbar&lt;/li&gt;
+&lt;li&gt;重写View&lt;/li&gt;
+&lt;li&gt;Volley&lt;/li&gt;
+&lt;li&gt;UIL的原理&lt;/li&gt;
+&lt;li&gt;zygote死掉后会重新启动&lt;/li&gt;
+&lt;li&gt;zygote和systemservice&lt;/li&gt;
+&lt;li&gt;Android系统为系统安全性做什么&lt;/li&gt;
+&lt;li&gt;java基础知识&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近常混迹一些论坛还有一些讨论组，发现很多好心人发了很多自己的面试经验，我自己觉得是一次很好的总结，所以把各个人的面试经验提到的问题又总结了一下，发现面试技术很多都注意基础，还有一些都是经常会被考到的技术点，自己总结出来一份也帮助自己好好准备面试。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="面试总结" scheme="http://kaisai1994.com/categories/%E9%9D%A2%E8%AF%95%E6%80%BB%E7%BB%93/"/>
+    
+    
+      <category term="面试" scheme="http://kaisai1994.com/tags/%E9%9D%A2%E8%AF%95/"/>
+    
+  </entry>
   
   <entry>
     <title>JavaIO学习笔记总结</title>

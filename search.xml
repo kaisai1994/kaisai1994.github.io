@@ -4,6 +4,166 @@
   
     
     <entry>
+      <title><![CDATA[Android面试经验总结]]></title>
+      <url>http://kaisai1994.com/blog/2016/06/Android%E9%9D%A2%E8%AF%95%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93.html</url>
+      <content type="html"><![CDATA[<p>最近常混迹一些论坛还有一些讨论组，发现很多好心人发了很多自己的面试经验，我自己觉得是一次很好的总结，所以把各个人的面试经验提到的问题又总结了一下，发现面试技术很多都注意基础，还有一些都是经常会被考到的技术点，自己总结出来一份也帮助自己好好准备面试。<br><a id="more"></a></p>
+<h1 id="百度"><a href="#百度" class="headerlink" title="百度"></a>百度</h1><h4 id="网络技术"><a href="#网络技术" class="headerlink" title="网络技术"></a>网络技术</h4><ul>
+<li>TCP和UDP的区别</li>
+<li>TCP如何保证可靠传输</li>
+<li>HTTP的报文格式</li>
+<li>HTTP的头部包含哪些内容</li>
+<li>cookie实在头部还是数据段，为什么</li>
+<li>HTTP回复的状态吗和你知道哪些</li>
+</ul>
+<h4 id="Java面向对象"><a href="#Java面向对象" class="headerlink" title="Java面向对象:"></a>Java面向对象:</h4><ul>
+<li>多态</li>
+<li>设计模式</li>
+<li>Java多线程的实现及同步</li>
+</ul>
+<p>####操作系统</p>
+<ul>
+<li>线程和进程的区别</li>
+<li>操作系统如何实现多线程的调用</li>
+</ul>
+<p>####软件工程</p>
+<ul>
+<li>开发的瀑布模型</li>
+<li>开发软件项目的历程</li>
+<li>系统设计和详细设计的区别，类图在哪个阶段画的</li>
+<li>测试</li>
+<li>如何做到覆盖测试，覆盖到每个分支</li>
+</ul>
+<p>####Android<br>区别2.X 3.X 4.X</p>
+<h1 id="蘑菇街"><a href="#蘑菇街" class="headerlink" title="蘑菇街"></a>蘑菇街</h1><p>####Android</p>
+<ul>
+<li>touch event的事件传递机制</li>
+<li>activity四种启动模式</li>
+<li>常见设计模式和使用情况</li>
+<li>获取一个button的高度</li>
+<li>自定义View的流程</li>
+<li>内存泄漏</li>
+<li>thread的start和run方法有什么区别，开启一个线程必须调用start方法么</li>
+</ul>
+<h1 id="网易"><a href="#网易" class="headerlink" title="网易"></a>网易</h1><ul>
+<li>APP怎么防止被强杀，怎么做到多进程</li>
+<li>Retrofit的优点和好处 MD的控件</li>
+<li>消息机制</li>
+<li>布局优化 merge include viewstub</li>
+<li>android中有哪些动画，View动画与属性动画的区别</li>
+<li>android网络优化</li>
+<li>自定义view的过程 三个测量模式，怎样从onMesure的两个参数中获取长度</li>
+<li>事件分发机制</li>
+<li>ListView 加载网络图片，怎样防止图片错乱</li>
+<li>java中的四种引用</li>
+<li>类加载器，双亲委托</li>
+<li>http和https的区别 RSA是什么，数字签名</li>
+<li>dp与px的转换公式，为什么用dp</li>
+<li>打包签名流程</li>
+<li>一键结束全部程序，activity会不调用onstop ondestory被强杀怎么恢复数据</li>
+<li>ANR几秒</li>
+<li>快排 时间复杂度 O（n2）是怎样的情况</li>
+<li>volatile和synchronized的区别，锁有哪些，static和synchd修饰的方法是什么锁，两个线程同时i++会怎么样还有线程池</li>
+<li>AsyncTask </li>
+<li>有个线程跑完后会显示textview文字，但是没跑完就按返回会发生什么</li>
+</ul>
+<h1 id="蘑菇街Android开发"><a href="#蘑菇街Android开发" class="headerlink" title="蘑菇街Android开发"></a>蘑菇街Android开发</h1><ul>
+<li>Git做代码托管，rebase，fetch和pull</li>
+<li>Java虚函数</li>
+<li>多态</li>
+<li>Java反射，类加载的Class怎么调用类的所有属性和方法</li>
+<li>Android中的几种Context有什么区别</li>
+<li>Android内存泄漏</li>
+<li>bitmap复用</li>
+<li>OOM</li>
+<li>外观模式</li>
+<li>FrameWork源码</li>
+<li>自定义控件</li>
+<li>Android动态加载</li>
+</ul>
+<h1 id="蘑菇街-1"><a href="#蘑菇街-1" class="headerlink" title="蘑菇街"></a>蘑菇街</h1><ul>
+<li>Android四大组件</li>
+<li>Android生命周期onpause和onstop</li>
+<li>Fragment是否看过源码</li>
+<li>Service有哪几种</li>
+<li>隐式启动和显式启动</li>
+<li>Service两种启动方式</li>
+<li>启动线程方式有哪几种</li>
+<li>handle消息队列相关</li>
+<li>几种常见布局， 布局group树过程</li>
+<li>weight属性</li>
+<li>布局优化相关</li>
+<li>ArraylistLinklist</li>
+<li>线程进程区别</li>
+<li>一个app能否是多线程</li>
+</ul>
+<h1 id="360-Android面经"><a href="#360-Android面经" class="headerlink" title="360 Android面经"></a>360 Android面经</h1><ul>
+<li>网络框架实现，volley原理</li>
+<li>线程池原理，java线程池</li>
+<li>一个activity只能有一个进程么</li>
+<li>activity任务栈，启动模式</li>
+<li>夜间主题</li>
+<li>动态加载原理，classloader</li>
+<li>listview实现左滑</li>
+<li>view的事件分发与渲染流程</li>
+<li>LruCache的理解原理以及哪些方式实现缓存调度</li>
+<li>GC原理，实现方式，能否手动控制GC回收</li>
+<li>OOM内存泄漏的问题</li>
+<li>mvp与mvc区别，实现原理</li>
+<li>volley原理，发送五个请求</li>
+<li>图片缓存技术的实现</li>
+<li>listview原理，adpter与view如何绑定的，如何自己设计一个类似listview的自定义view，子item复用，管理以及getview实现</li>
+<li>进程实现方式</li>
+<li>asynctask</li>
+<li>CG原理</li>
+</ul>
+<h1 id="网易-1"><a href="#网易-1" class="headerlink" title="网易"></a>网易</h1><ul>
+<li>推送。长连接 心跳连接</li>
+<li>LTE协议栈项目</li>
+<li>项目开源框架的源码分析</li>
+<li>加密算法</li>
+<li>消息处理机制</li>
+<li>asynctask</li>
+<li>android卡顿优化</li>
+<li>并发</li>
+<li>属性动画</li>
+<li>touch事件分发机制</li>
+<li>android开机过程</li>
+<li>Service与Thread的区别</li>
+<li>SQLite并发读取或者写入</li>
+<li>线程与进程</li>
+<li>Activity与Service的通信问题</li>
+<li>Activity与Fragment的生命周期</li>
+</ul>
+<h1 id="腾讯-amp-阿里"><a href="#腾讯-amp-阿里" class="headerlink" title="腾讯 &amp; 阿里"></a>腾讯 &amp; 阿里</h1><ul>
+<li>volley原理</li>
+<li>403是什么意思</li>
+<li>TCP如何实现可靠传输</li>
+<li>线程进程的区别</li>
+<li>调度算法</li>
+<li>快排</li>
+<li>handle looper MessageQueen</li>
+<li>UIL和picasso的区别，底层实现</li>
+<li>java四种引用</li>
+<li>IPC几种通信方式</li>
+<li>static加在方法上有什么特殊的含义</li>
+<li>hashmap的原理</li>
+<li>String StringBuilder StringBuffer</li>
+<li>LRU</li>
+<li>IPC几种通信方式</li>
+<li>ListView 和RecycleView</li>
+<li>ActionBar和Toolbar</li>
+<li>重写View</li>
+<li>Volley</li>
+<li>UIL的原理</li>
+<li>zygote死掉后会重新启动</li>
+<li>zygote和systemservice</li>
+<li>Android系统为系统安全性做什么</li>
+<li>java基础知识</li>
+</ul>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[JavaIO学习笔记总结]]></title>
       <url>http://kaisai1994.com/blog/2016/05/JavaIO%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93%E7%AC%94%E8%AE%B0.html</url>
       <content type="html"><![CDATA[<p>说道JavaIO流可能就要祭出这张图了，·<img src="http://pic002.cnblogs.com/images/2012/384764/2012031413373126.jpg" alt=""><br>这张图很清楚的将IO流的体系划分了出来<br> <a id="more"></a></p>
