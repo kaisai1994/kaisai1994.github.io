@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Java," />
 
 
 
@@ -86,16 +86,22 @@
 
 
 
-<meta name="description" content="Android开发程序媛，爱二次元">
-<meta property="og:type" content="website">
-<meta property="og:title" content="标签">
-<meta property="og:url" content="http://kaisai1994.com/tags/index.html">
+<meta name="description" content="再JDK2.1之后Java的引用分为以下四种:
+强引用（StrongReference)强引用是最普遍的引用，当一个对象具有强引用，那么垃圾回收器绝对不会回收他。当内存空间不足，Java虚拟机宁可跑出OOM异常的错误，让程序终止也不会随意回收有强引用的对象来解决内存不足的问题。ex:A a = new A();强引用
+软引用如果一个对象只具有软引用，则内存空间足够，垃圾回收器就不会回收他，如果内存">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Java中的四种引用">
+<meta property="og:url" content="http://kaisai1994.com/blog/2016/06/Java中的四种引用.html">
 <meta property="og:site_name" content="小菜鸟大成长">
-<meta property="og:description" content="Android开发程序媛，爱二次元">
-<meta property="og:updated_time" content="2016-05-27T00:34:21.785Z">
+<meta property="og:description" content="再JDK2.1之后Java的引用分为以下四种:
+强引用（StrongReference)强引用是最普遍的引用，当一个对象具有强引用，那么垃圾回收器绝对不会回收他。当内存空间不足，Java虚拟机宁可跑出OOM异常的错误，让程序终止也不会随意回收有强引用的对象来解决内存不足的问题。ex:A a = new A();强引用
+软引用如果一个对象只具有软引用，则内存空间足够，垃圾回收器就不会回收他，如果内存">
+<meta property="og:updated_time" content="2016-06-03T01:03:39.542Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="标签">
-<meta name="twitter:description" content="Android开发程序媛，爱二次元">
+<meta name="twitter:title" content="Java中的四种引用">
+<meta name="twitter:description" content="再JDK2.1之后Java的引用分为以下四种:
+强引用（StrongReference)强引用是最普遍的引用，当一个对象具有强引用，那么垃圾回收器绝对不会回收他。当内存空间不足，Java虚拟机宁可跑出OOM异常的错误，让程序终止也不会随意回收有强引用的对象来解决内存不足的问题。ex:A a = new A();强引用
+软引用如果一个对象只具有软引用，则内存空间足够，垃圾回收器就不会回收他，如果内存">
 
 
 
@@ -113,13 +119,7 @@
   };
 </script>
 
-  <title>
-  
-
-  
-    标签 | 小菜鸟大成长
-  
-</title>
+  <title> Java中的四种引用 | 小菜鸟大成长 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -150,7 +150,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-right  ">
+  <div class="container one-collumn sidebar-position-right page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -273,16 +273,197 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
     
-      <div class="tag-cloud">
-        <div class="tag-cloud-title">
-            目前共计 6 个标签
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                Java中的四种引用
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-06-03T08:44:18+08:00" content="2016-06-03">
+              2016-06-03
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/Java/" itemprop="url" rel="index">
+                    <span itemprop="name">Java</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/blog/2016/06/Java中的四种引用.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="/blog/2016/06/Java中的四种引用.html" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+              &nbsp; | &nbsp;
+              <span class="page-pv">本文总阅读量
+              <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>次
+              </span>
+          
         </div>
-        <div class="tag-cloud-tags">
-          <a href="/tags/Java/" style="font-size: 30px; color: #111">Java</a> <a href="/tags/剑指Offer/" style="font-size: 12px; color: #ccc">剑指Offer</a> <a href="/tags/搭建博客/" style="font-size: 12px; color: #ccc">搭建博客</a> <a href="/tags/数据结构/" style="font-size: 12px; color: #ccc">数据结构</a> <a href="/tags/算法/" style="font-size: 30px; color: #111">算法</a> <a href="/tags/面试/" style="font-size: 12px; color: #ccc">面试</a>
-        </div>
-      </div>
+      </header>
     
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>再JDK2.1之后Java的引用分为以下四种:</p>
+<h1 id="强引用（StrongReference"><a href="#强引用（StrongReference" class="headerlink" title="强引用（StrongReference)"></a>强引用（StrongReference)</h1><p>强引用是最普遍的引用，当一个对象具有强引用，那么垃圾回收器绝对不会回收他。<br>当内存空间不足，Java虚拟机宁可跑出OOM异常的错误，让程序终止也不会随意回收有强引用的对象来解决内存不足的问题。ex:A a = new A();强引用</p>
+<h1 id="软引用"><a href="#软引用" class="headerlink" title="软引用"></a>软引用</h1><p>如果一个对象只具有软引用，则内存空间足够，垃圾回收器就不会回收他，如果内存空间不足了，就会回收这些对象的内存。只要垃圾回收器没有回收塔，该对象就可以被程序使用，软引用可以用来实现内存敏感的高速缓存</p>
+<h1 id="弱引用"><a href="#弱引用" class="headerlink" title="弱引用"></a>弱引用</h1><p>弱引用与软引用的区别在于：只具有弱引用的对象拥有更短暂的生命周期，而垃圾回收期线程扫描它所管辖的内存区域的过程中，一旦发现了只具有弱引用的对象，不管当前内存空间足够与否，都会回收他的内存，不过垃圾回收器是一个优先级很低的线程，因此不一定会很快发现那些只具有弱引用的对象。</p>
+<h1 id="虚引用"><a href="#虚引用" class="headerlink" title="虚引用"></a>虚引用</h1><p>虚引用顾名思义就是形同虚设，与其他几种引用都不同，虚引用并不会决定对象的生命周期。如果一个对象仅持有虚引用，那么它就和没有任何引用一样，任何时候都可以被垃圾回收器回收。</p>
+
+      
+    </div>
+
+    <div>
+      
+        
+      
+    </div>
+
+    <div>
+      
+        
+  <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+    <div>如果你觉得文章不错，请作者吃个雪糕吧</div>
+    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+      <span>赏</span>
+    </button>
+    <div id="QR" style="display: none;">
+      
+        <div id="wechat" style="display: inline-block">
+          <img id="wechat_qr" src="/images/1.jpg" alt="kaisai1994 WeChat Pay"/>
+          <p>微信打赏</p>
+        </div>
+      
+      
+        <div id="alipay" style="display: inline-block">
+          <img id="alipay_qr" src="/images/2.jpg" alt="kaisai1994 Alipay"/>
+          <p>支付宝打赏</p>
+        </div>
+      
+    </div>
+  </div>
+
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Java/" rel="tag">#Java</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/blog/2016/06/剑指offer题目联系.html" rel="next" title="剑指Offer题目练习">
+                <i class="fa fa-chevron-left"></i> 剑指Offer题目练习
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+        <!-- JiaThis Button BEGIN -->
+<div class="jiathis_style">
+  <a class="jiathis_button_tsina"></a>
+  <a class="jiathis_button_tqq"></a>
+  <a class="jiathis_button_weixin"></a>
+  <a class="jiathis_button_cqq"></a>
+  <a class="jiathis_button_douban"></a>
+  <a class="jiathis_button_renren"></a>
+  <a class="jiathis_button_qzone"></a>
+  <a class="jiathis_button_kaixin001"></a>
+  <a class="jiathis_button_copy"></a>
+  <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank"></a>
+  <a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" >
+  var jiathis_config={
+    hideMore:false
+  }
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+
+      
+    </div>
   </div>
 
 
@@ -294,6 +475,14 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="/blog/2016/06/Java中的四种引用.html"
+           data-title="Java中的四种引用" data-url="http://kaisai1994.com/blog/2016/06/Java中的四种引用.html">
+      </div>
+    
+  </div>
+
 
         </div>
         
@@ -313,8 +502,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.jpg"
@@ -400,6 +598,17 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#强引用（StrongReference"><span class="nav-number">1.</span> <span class="nav-text">强引用（StrongReference)</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#软引用"><span class="nav-number">2.</span> <span class="nav-text">软引用</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#弱引用"><span class="nav-number">3.</span> <span class="nav-text">弱引用</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#虚引用"><span class="nav-number">4.</span> <span class="nav-text">虚引用</span></a></li></ol></div>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -512,6 +721,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
 
   
 
