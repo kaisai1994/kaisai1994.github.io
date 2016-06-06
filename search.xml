@@ -4,6 +4,21 @@
   
     
     <entry>
+      <title><![CDATA[Android像素转换]]></title>
+      <url>http://kaisai1994.com/blog/2016/06/Android%E5%83%8F%E7%B4%A0%E8%BD%AC%E6%8D%A2.html</url>
+      <content type="html"><![CDATA[<p>在Android中，1pt大概等于2.22sp以上仅供参考。<br>与分辨率无关的度量单位可以解决这一问题。Android支持下列所有单位:</p>
+<pre><code>px(像素):屏幕上的点
+in(英寸):长度单位
+mm(毫米):长度单位
+pt(磅):1/72英寸
+dp(与密度无关的像素):一种基于屏幕密度的抽象单位。每英寸160点的显示器上1dp = 1px.
+dip:与dp相同，多用于android/onphone示例中。
+sp(与刻度无关的像素):与dp类似，但是可以根据用户的字体大小首选项进行缩放
+</code></pre><p>分辨率：整个屏是多少点，比如800x480<br>它是对于软件来说的显示，它是对于软件来说的显示单位，以px为单位的点。density（密度）值，表示每英寸有多少个显示点，与分辨率是两个概念，apk的资源包中，<br>当屏幕density = 240时使用hdpi标签的资源<br>当屏幕density = 160时使用mdpi标签的资源<br>当屏幕density = 120时使用ldpi标签的资源<br>一般android设置长度和宽度多用dip，设置字体大小多用sp，在屏幕密度为160<br>1dp = 1px = 1dip，1pt = 160/72sp<br>1pt = 1/72英寸，当屏幕密度为240时1dp = 1dip = 1.5px</p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[Java中的四种引用]]></title>
       <url>http://kaisai1994.com/blog/2016/06/Java%E4%B8%AD%E7%9A%84%E5%9B%9B%E7%A7%8D%E5%BC%95%E7%94%A8.html</url>
       <content type="html"><![CDATA[<p>再JDK2.1之后Java的引用分为以下四种:</p>
