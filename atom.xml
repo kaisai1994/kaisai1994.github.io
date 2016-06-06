@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kaisai1994.com/"/>
-  <updated>2016-06-06T07:40:31.728Z</updated>
+  <updated>2016-06-06T07:51:09.849Z</updated>
   <id>http://kaisai1994.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://kaisai1994.com//blog/2016/06/Android%E5%83%8F%E7%B4%A0%E8%BD%AC%E6%8D%A2.html"/>
     <id>http://kaisai1994.com//blog/2016/06/Android像素转换.html</id>
     <published>2016-06-06T07:25:01.259Z</published>
-    <updated>2016-06-06T07:40:31.728Z</updated>
+    <updated>2016-06-06T07:51:09.849Z</updated>
     
     <content type="html">&lt;p&gt;在Android中，1pt大概等于2.22sp以上仅供参考。&lt;br&gt;与分辨率无关的度量单位可以解决这一问题。Android支持下列所有单位:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;px(像素):屏幕上的点
@@ -31,6 +31,25 @@ dp(与密度无关的像素):一种基于屏幕密度的抽象单位。每英寸
 dip:与dp相同，多用于android/onphone示例中。
 sp(与刻度无关的像素):与dp类似，但是可以根据用户的字体大小首选项进行缩放
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;分辨率：整个屏是多少点，比如800x480&lt;br&gt;它是对于软件来说的显示，它是对于软件来说的显示单位，以px为单位的点。density（密度）值，表示每英寸有多少个显示点，与分辨率是两个概念，apk的资源包中，&lt;br&gt;当屏幕density = 240时使用hdpi标签的资源&lt;br&gt;当屏幕density = 160时使用mdpi标签的资源&lt;br&gt;当屏幕density = 120时使用ldpi标签的资源&lt;br&gt;一般android设置长度和宽度多用dip，设置字体大小多用sp，在屏幕密度为160&lt;br&gt;1dp = 1px = 1dip，1pt = 160/72sp&lt;br&gt;1pt = 1/72英寸，当屏幕密度为240时1dp = 1dip = 1.5px&lt;/p&gt;
+&lt;h1 id=&quot;px-与-dp-sp换算公式&quot;&gt;&lt;a href=&quot;#px-与-dp-sp换算公式&quot; class=&quot;headerlink&quot; title=&quot;px 与 dp, sp换算公式&quot;&gt;&lt;/a&gt;px 与 dp, sp换算公式&lt;/h1&gt;&lt;p&gt;PPI = Pixels per inch，每英寸上的像素数,即 “像素密度”&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;xhdpi: 2.0
+hdpi: 1.5
+mdpi: 1.0 (baseline)
+ldpi: 0.75
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&quot;http://developer.android.com/design/media/devices_displays_density@2x.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;drawable-ldpi、drawable-mdpi、drawable-hdpi 精度分别为低、中（android默认）、高。&lt;br&gt;对应的图片大小为：36x36、48x48、72x72。&lt;/p&gt;
+&lt;p&gt;xxhdpi: 144&lt;em&gt;144&lt;br&gt;xhdpi:96&lt;/em&gt;96&lt;br&gt;hdpi:72&lt;em&gt;72&lt;br&gt;mdpi:48&lt;/em&gt;48&lt;br&gt;ldpi:36*36&lt;/p&gt;
+&lt;p&gt;dp是虚拟像素，在不同的像素密度的设备上会自动适配，比如:&lt;br&gt;在320x480分辨率，像素密度为160,1dp=1px&lt;br&gt;在480x800分辨率，像素密度为240,1dp=1.5px&lt;br&gt;计算公式:1dp*像素密度/160 = 实际像素数&lt;/p&gt;
+&lt;p&gt;drawable- hdpi、drawable- mdpi、drawable-ldpi的区别：&lt;br&gt;(1)drawable-hdpi里面存放高分辨率的图片,如WVGA (480x800),FWVGA (480x854)&lt;br&gt;(2)drawable-mdpi里面存放中等分辨率的图片,如HVGA (320x480)&lt;br&gt;(3)drawable-ldpi里面存放低分辨率的图片,如QVGA (240x320)&lt;br&gt;系统会根据机器的分辨率来分别到这几个文件夹里面去找对应的图片。&lt;/p&gt;
+&lt;p&gt; ppi的运算方式是：&lt;/p&gt;
+&lt;p&gt;PPI = √（长度像素数² + 宽度像素数²） / 屏幕对角线英寸数&lt;/p&gt;
+&lt;p&gt;dp：Density-independent pixels，以160PPI屏幕为标准，则1dp=1px，&lt;/p&gt;
+&lt;p&gt;dp和px的换算公式 ：&lt;br&gt;dp*ppi/160 = px。比如1dp x 320ppi/160 = 2px。&lt;/p&gt;
+&lt;p&gt;sp：Scale-independent pixels，它是安卓的字体单位，以160PPI屏幕为标准，当字体大小为 100%时， 1sp=1px。&lt;/p&gt;
+&lt;p&gt;sp 与 px 的换算公式：sp*ppi/160 = px&lt;/p&gt;
+&lt;p&gt;总结得出：&lt;/p&gt;
+&lt;p&gt;px = dp*ppi/160&lt;br&gt;dp = px / (ppi / 160)&lt;/p&gt;
+&lt;p&gt;px = sp*ppi/160&lt;br&gt;sp = px / (ppi / 160)&lt;/p&gt;
+&lt;p&gt;dp = sp? &lt;/p&gt;
 </content>
     
     <summary type="html">
