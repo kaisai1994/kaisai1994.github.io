@@ -4,6 +4,18 @@
   
     
     <entry>
+      <title><![CDATA[第一章Activity的生命周期和启动模式]]></title>
+      <url>http://kaisai1994.com/blog/2016/09/Android%E5%BC%80%E5%8F%91%E8%89%BA%E6%9C%AF%E6%8E%A2%E7%B4%A2%E7%AC%AC%E4%B8%80%E7%AB%A0%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html</url>
+      <content type="html"><![CDATA[<p>本来这本书已经被我读了大半部分了，偶尔想想自己都学到了什么的时候总是感觉没有把书中的知识GET的很好，所以还是打算写读书笔记来总结一下吧，知识串起来才好吸收，开发探索第一章的内容介绍的是Activity，并不是入门的介绍而是详细介绍了Activity的生命周期，异常下的，启动模式，IntentFilter的匹配规则。<br><a id="more"></a></p>
+<p>#Activity的生命周期全面分析<br><em>所有读书笔记的标题都与书中标题一致</em></p>
+<p>##典型情况下的生命周期<br>书中的介绍典型的生命周期是有用户参与的，Activity所经过的生命周期改变。好的不管有没有用户参与我们Activity的生命周期都是从onCreate-&gt;onRestart-&gt;onStart-&gt;onResume-&gt;onPause-&gt;onStop-&gt;onDestory一共七个部分，当然身为标准安卓程序员一定对这七个过程熟烂于胸了，还记得那张图吧，这里不打算放出来了<br>书中对此分析了两个问题：<br>1.onStart和onResume、onPause和onStop对我们有什么实质性的不同？<br>从可见角度 onStart - onStop<br>从是否在前台角度 onResume - onPause<br>仅仅以上区别<br>2.假设当前Activity为A，如果用户打开新的Activity B那么B的onResume和A的onPause那个先执行？<br>当初刚看到这个问题我的猜测是B的onResume先执行，onPause表示Activity不再前台，加入onPause不执行那么B的onResume执行之后B还是会完整显示在前台，然而结论旧Acticity先onPause，分析：书中从Activity的启动过程来进行了分析，不过Activity的启动过程十分复杂，只有了少量的介绍，</p>
+<blockquote>
+<p>启动Activity的请求会由Instrumentation来处理，然后它通过Binder向AMS发请求，AMS内部维护着一个ActivityStack并负责栈内的Activity状态同步，AMS通过ActivityThread去同步Activity的状态从而完成生命周期方法的调用。</p>
+</blockquote>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[Android面试经验总结]]></title>
       <url>http://kaisai1994.com/blog/2016/06/Android%E9%9D%A2%E8%AF%95%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93.html</url>
       <content type="html"><![CDATA[<p>最近常混迹一些论坛还有一些讨论组，发现很多好心人发了很多自己的面试经验，我自己觉得是一次很好的总结，所以把各个人的面试经验提到的问题又总结了一下，发现面试技术很多都注意基础，还有一些都是经常会被考到的技术点，自己总结出来一份也帮助自己好好准备面试。<br><a id="more"></a></p>
